@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.TopButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: gray;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+
+.hwcont {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.howitwk,
+.chpt {
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.nomline {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.nomlinecard {
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nocard {
+    width: 5em;
+    height: 6em;
+    background-color: #f6f5f3;
+    border-radius: 45%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    height: 200px;
+    width: 2px;
+    background-color: #f6f5f3;
+}
+
+.disp {
+    color: rgb(148 163 184);
+}
+
+.nomlinedetails {
+    gap: 30px;
+}
+
+.det {
+    height: 100%;
+    width: auto;
+    margin-top: 30%;
+}
+
+.no1 {
+    margin-top: 0%;
+}
+
+.head {
+    font-size: xx-large;
+}
+
+.textt {
+    color: #5c5c5c;
+}
+
+.head,
+.textt,
+.disp {
+    margin-top: 1%;
+}
+
+.chpt {
+    width: 70%;
+}
+
+.pkg {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blkcont {
+    width: 100%;
+    height: 60em;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.blk {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.blkhead {
+    font-size: 3em;
+}
+
+.blktext {
+    font-size: 1.5em;
+    color: #494949;
+}
+
+.blkbtn {
+    width: 40%;
+    height: 6%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111111;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.text3 {
+    color: #232326;
+}
+
+.text1,
+.text2,
+.text3 {
+    margin: 10%;
+}
+
+.text1 {
+    font-size: xx-large;
+}
+
+.text3 {
+    font-size: x-large;
+}
